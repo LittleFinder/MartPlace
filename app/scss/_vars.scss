@@ -1,7 +1,29 @@
 
 $blue: #2548cc;
-$lightblue: #eef1f3;
+$main: #eff1f5;
 $button : #0674ec;
-$footert: #262b30;
-$footerb: #192027;
-$gray : #eff1f5;
+$red: #ff6a6c;
+$green : #62d03b;
+
+@mixin f300 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+@mixin f500 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+@mixin f600 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+@mixin f700 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+
+

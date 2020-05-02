@@ -8,11 +8,15 @@ html {
     box-sizing: inherit;
 }
 
+html,
+body {
+	height: 100%;
+}
 
 body {
-    font-family: 'Quicksand-Regular', sans-serif;
+    font-family: "Quicksand-Regular";
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .container {
@@ -32,3 +36,24 @@ li {
     margin: 0;
     list-style: none;
 }
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.content {
+	flex: 1 0 auto;
+}
+
+.footer {
+	flex: 0 0 auto;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+

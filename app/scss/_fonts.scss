@@ -1,10 +1,202 @@
+
 @font-face {
-	font-family: 'Quicksand', sans-serif;
-        src: url('../fonts/Quicksand-Regular.woff2') format('woff2'),
-             url('../fonts/Quicksand-Regular.woff') format('woff');
-        font-weight: 400;
-        font-display: swap;
-    }
-
-
+     font-family: "Quicksand-Regular";
+     src: url("../fonts/Quicksand-Regular.woff") format("woff"),
+       url("../fonts/Quicksand-Regular.woff2") format("woff2"); 
+          font-weight: 400;
+          font-display: swap;
+     }
     
+     @font-face {
+          font-family: 'Linearicons-Free';
+          src: url('../fonts/Linearicons-Free.woff2?w118d') format('woff2'),
+               url('../fonts/Linearicons-Free.woff?w118d') format('woff');
+          font-weight: normal;
+          font-style: normal;
+     }
+     
+     .lnr {
+          font-family: 'Linearicons-Free';
+          speak: none;
+          font-style: normal;
+          font-weight: normal;
+          font-variant: normal;
+          text-transform: none;
+          line-height: 1;
+     
+          /* Better Font Rendering =========== */
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+     }
+     
+     .lnr-home:before {
+          content: "\e800";
+     }
+     
+     
+     .lnr-cloud-download:before {
+          content: "\e80b";
+     }
+   
+
+     .lnr-heart:before {
+          content: "\e813";
+     }
+    
+     .lnr-envelope:before {
+          content: "\e818";
+     }
+    
+    
+     .lnr-user:before {
+          content: "\e82a";
+     }
+     .lnr-users:before {
+          content: "\e82b";
+     }
+    
+     .lnr-store:before {
+          content: "\e82d";
+     }
+     .lnr-cart:before {
+          content: "\e82e";
+     }
+     .lnr-tag:before {
+          content: "\e82f";
+     }
+     .lnr-phone-handset:before {
+          content: "\e830";
+     }
+     .lnr-phone:before {
+          content: "\e831";
+     }
+     .lnr-pushpin:before {
+          content: "\e832";
+     }
+     .lnr-map-marker:before {
+          content: "\e833";
+     }
+     .lnr-map:before {
+          content: "\e834";
+     }
+     .lnr-location:before {
+          content: "\e835";
+     }
+   
+    
+     .lnr-briefcase:before {
+          content: "\e84c";
+     }
+   
+   
+     .lnr-download:before {
+          content: "\e865";
+     }
+     .lnr-upload:before {
+          content: "\e866";
+     }
+    
+     .lnr-thumbs-up:before {
+          content: "\e86d";
+     }
+     .lnr-thumbs-down:before {
+          content: "\e86e";
+     }
+     .lnr-magnifier:before {
+          content: "\e86f";
+     }
+     
+     .lnr-list:before {
+          content: "\e872";
+     }
+     .lnr-chevron-up:before {
+          content: "\e873";
+     }
+     .lnr-chevron-down:before {
+          content: "\e874";
+     }
+     .lnr-chevron-left:before {
+          content: "\e875";
+     }
+     .lnr-chevron-right:before {
+          content: "\e876";
+     }
+     .lnr-arrow-up:before {
+          content: "\e877";
+     }
+     .lnr-arrow-down:before {
+          content: "\e878";
+     }
+     .lnr-arrow-left:before {
+          content: "\e879";
+     }
+     .lnr-arrow-right:before {
+          content: "\e87a";
+     }
+     
+     .lnr-menu-circle:before {
+          content: "\e87e";
+     }
+     .lnr-checkmark-circle:before {
+          content: "\e87f";
+     }
+     .lnr-cross-circle:before {
+          content: "\e880";
+     }
+     .lnr-plus-circle:before {
+          content: "\e881";
+     }
+     .lnr-circle-minus:before {
+          content: "\e882";
+     }
+     .lnr-arrow-up-circle:before {
+          content: "\e883";
+     }
+     .lnr-arrow-down-circle:before {
+          content: "\e884";
+     }
+     .lnr-arrow-left-circle:before {
+          content: "\e885";
+     }
+     .lnr-arrow-right-circle:before {
+          content: "\e886";
+     }
+     .lnr-chevron-up-circle:before {
+          content: "\e887";
+     }
+     .lnr-chevron-down-circle:before {
+          content: "\e888";
+     }
+     .lnr-chevron-left-circle:before {
+          content: "\e889";
+     }
+     .lnr-chevron-right-circle:before {
+          content: "\e88a";
+     }
+    
+     
+     .lnr-page-break:before {
+          content: "\e8a2";
+     }
+     .lnr-sort-alpha-asc:before {
+          content: "\e8a3";
+     }
+     .lnr-sort-amount-asc:before {
+          content: "\e8a4";
+     }
+     .lnr-hand:before {
+          content: "\e8a5";
+     }
+     .lnr-pointer-up:before {
+          content: "\e8a6";
+     }
+     .lnr-pointer-right:before {
+          content: "\e8a7";
+     }
+     .lnr-pointer-down:before {
+          content: "\e8a8";
+     }
+     .lnr-pointer-left:before {
+          content: "\e8a9";
+     }
+     

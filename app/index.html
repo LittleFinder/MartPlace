@@ -5,141 +5,936 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MartPlace</title>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header__top">
-                <div class="header__inner-top">
-                    <div class="header__logo">
-                        <a> <img src="images/logo.png" alt=""> </a>
+    <div class="wrapper">
+        <div class="content">
+            <header class="header">
+                <div class="header__top">
+                    <div class="container">
+                        <div class="header__inner-top">
+                            <a href="#" class="header__logo"><img src="images/logo.png" alt=""></a>
+                            <a href="#" class="header__btn">Become a Seller</a>
+                            <div class="header__box">
+                                <div class="notification__box">
+                                    <a href="#" class="notification header__icon header__circle lnr-alarm">
+                                        <span>25</span>
+                                    </a>
+                                </div>
+                                <div class="message__box">
+                                    <a href="#" class="message header__icon header__circle lnr-envelope">
+                                        <span>6</span>
+                                    </a>
+                                </div>
+                                <div class="basket__box">
+                                    <a href="#" class="basket header__icon header__circle lnr-cart">
+                                        <span>2</span>
+                                    </a>
+                                </div>
+                                <div class="user__box">
+                                    <a href="#" class="user">
+                                        <div class="user__inner">
+                                            <div class="user__images">
+                                                <img src="images/content/user.png" alt="">
+                                            </div>
+                                            <div class="user__info">
+                                                <div class="user__name">Taofiq Hakim</div>
+                                                <div class="user__money"> $20.45</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="header__box">
-                        <a class="header__btn-register">
-                            Become a Seller
-                        </a>
-                        <!-- место для  личного кабинета -->
+                </div>
+                <div class="header__menu">
+                    <div class="container">
+                        <div class="header__menu-inner">
+                            <nav class="menu">
+                                <ul class="menu__list">
+                                    <li class="menu__list-item"><a class="menu__list-link" href="#">HOME</a></li>
+                                    <li class="menu__list-item"><a class="menu__list-link" href="#">all products</a>
+                                    </li>
+                                    <li class="menu__list-item"><a class="menu__list-link" href="#">wordpress </a> </li>
+                                    <li class="menu__list-item"><a class="menu__list-link" href="#">festures</a> </li>
+                                    <li class="menu__list-item"><a class="menu__list-link" href="#"> Pages</a> </li>
+                                </ul>
+                            </nav>
+                            <div class="search-top">
+                                <form class="form">
+                                    <label class="label"></label>
+                                    <input class="form__search" type="search" placeholder="Search product here...">
+                                    <button type="submit" class="form__btn lnr-magnifier" href="#"></button>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </header>
 
-        <div class="header__bottom">
-            <div class="container">
-                <div class="header__inner-bottom">
-                    <nav class="menu">
-                        <ul class="menu__list">
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#"> all products </a></li>
-                            <li><a href="#">wordpress </a></li>
-                            <li><a href="#"> festures </a></li>
-                            <li><a href="#">Pages</a></li>
-                        </ul>
-                    </nav>
-
-                    <div class="header__search">
-                        <form action="">
-                            <input type="text" placeholder="Search product here..." required>
-                            <button type="submit">
-                                <img src="images/icon/search-icon.png" alt="">
-                            </button>
-                        </form>
+            <section class="search">
+                <div class="container">
+                    <div class="search__inner">
+                        <div class="search__inner-title">
+                            <span class="search__inner-subtitle">Create Your Own</span>
+                            Digital Product Marketplace
+                        </div>
+                        <div class="search__inner-text">
+                            MartPlace is the most powerful, & customizable template for Easy Digital Downloads Products
+                        </div>
+                        <div class="search__inner-btn">
+                            <a class="search__inner-link" href="#">View All Products</a>
+                            <a class="search__inner-link" href="#">Popular Products</a>
+                        </div>
                     </div>
                 </div>
+            </section>
 
-            </div>
-        </div>
-    </header>
+            <section class="search-line">
+                <form class="search-line__form">
+                    <input class="search-line__text" type="text" placeholder="Search your products...">
+                    <select class="search-line__select" data-smart-positioning>
+                        <option>All Categories</option>
+                        <option>All Categories</option>
+                        <option>All Categories</option>
+                        <option>All Categories</option>
+                    </select>
+                    <button class="search-line__btn" type="submit">Search Now</button>
+                </form>
+            </section>
+
+            <section class="features">
+                <div class="container">
+                    <div class="features__inner">
+                        <div class="features__col-inner">
+                            <div class="features__col features__research">
+                                <div class="features__item">
+                                    <img class="features__item-img" src="images/item-icon/icon-1.png" alt="">
+                                    <div class="features__item-title">Best UX Research</div>
+                                    <div class="features__item-text">Nunc placerat mi id nisi interdum mollis. Praesent
+                                        pharetra,
+                                        justo ut scelerisque
+                                        the mattis, leo quam aliquet diam
+                                        congue is laoreet elit metus.</div>
+                                </div>
+                            </div>
+                            <div class="features__col features__responsive">
+                                <div class="features__item">
+                                    <img class="features__item-img" src="images/item-icon/icon-2.png" alt="">
+                                    <div class="features__item-title">Fully Responsive</div>
+                                    <div class="features__item-text">Nunc placerat mi id nisi interdum mollis. Praesent
+                                        pharetra,
+                                        justo ut scelerisque
+                                        the mattis, leo quam aliquet diam
+                                        congue is laoreet elit metus.</div>
+                                </div>
+                            </div>
+
+                            <div class="features__col features__buy">
+                                <div class="features__item">
+                                    <img class="features__item-img" src="images/item-icon/icon-3.png" alt="">
+                                    <div class="features__item-title">Buy & Sell Easily</div>
+                                    <div class="features__item-text">Nunc placerat mi id nisi interdum mollis. Praesent
+                                        pharetra,
+                                        justo ut scelerisque
+                                        the mattis, leo quam aliquet diam
+                                        congue is laoreet elit metus.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="product-slider">
+                <div class="container">
+                    <div class="product-slider__inner">
+                        <div class="product-slider__title-inner">
+                            <div class="product-slider__title product-title">
+                                Weekly Featured Products
+                            </div>
+                            <div class="product-slider__title-btn">
+                                <img src="images/title-decor.png" alt="">
+                            </div>
+                        </div>
+                        <div class="product-slider__box-wrapper">
+                            <div class="product-slider__box">
+                                <div class="product-slider__item">
+                                    <div class="product-slider__item-images"
+                                        style="background-image: url(images/content/item-big.jpg);">
+                                    </div>
+                                    <div class="product-slider__item-content">
+                                        <div class="product-slider__item-title">
+                                            One Page Resume Template
+                                        </div>
+
+                                        <div class="product-slider__item-inner">
+                                            <div class="product-slider__item-avatar"
+                                                style="background-image: url(images/content/user.png);"> </div>
+                                            <a href="#" class="product-slider__item-name">AazzTech</a>
+                                            <a href="#" class="product-slider__item-category">
+                                                <div class="product-slider__item-icon"
+                                                    style="background-image: url(images/content/wp-icon.svg);">
+                                                </div> WordPress
+                                            </a>
+                                        </div>
+
+                                        <p class="product-slider__item-text">
+                                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                            scelerisque the mattis, leo quam aliquet congue placerat mi id nisi interdum
+                                            mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet
+                                            congue justo ut scelerisque.
+                                        </p>
+                                        <div class="product-slider__item-tag">
+                                            <span class="product-slider__item-span">website</span>
+                                            <span class="product-slider__item-span">plugin</span>
+                                            <span class="product-slider__item-span">landing page</span>
+                                        </div>
 
 
-    <section class="main">
-        <div class="container">
-            <div class="main__inner">
-                <div class="main__title">
-                    Create Your Own
-                    <span>Digital Product Marketplace</span>
+                                        <div class="product-slider__item-about">
+                                            <div class="product-slider__item-inner">
+                                                <div class="product-slider__item-price">
+                                                    <span class="product-slider__price-span"> $10 - $50</span>
+                                                </div>
+                                                <div class="product-slider__item-like lnr-heart">
+                                                    <span>46</span>
+                                                </div>
+                                                <div class="product-slider__item-buy lnr-cart">
+                                                    <span>64</span>
+                                                </div>
+                                                <div class="product-slider__item-rate">
+                                                    <div class="rateYo"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product-slider__box">
+                                <div class="product-slider__item">
+                                    <div class="product-slider__item-images"
+                                        style="background-image: url(images/content/item-big.jpg);">
+                                    </div>
+                                    <div class="product-slider__item-content">
+                                        <div class="product-slider__item-title">
+                                            One Page Resume Template
+                                        </div>
+
+                                        <div class="product-slider__item-inner">
+                                            <div class="product-slider__item-avatar"
+                                                style="background-image: url(images/content/user.png);"> </div>
+                                            <a href="#" class="product-slider__item-name">AazzTech</a>
+                                            <a href="#" class="product-slider__item-category">
+                                                <div class="product-slider__item-icon"
+                                                    style="background-image: url(images/content/wp-icon.svg);">
+                                                </div> WordPress
+                                            </a>
+                                        </div>
+
+                                        <p class="product-slider__item-text">
+                                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                            scelerisque the mattis, leo quam aliquet congue placerat mi id nisi interdum
+                                            mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet
+                                            congue justo ut scelerisque.
+                                        </p>
+                                        <div class="product-slider__item-tag">
+                                            <span class="product-slider__item-span">website</span>
+                                            <span class="product-slider__item-span">plugin</span>
+                                            <span class="product-slider__item-span">landing page</span>
+                                        </div>
+
+
+                                        <div class="product-slider__item-about">
+                                            <div class="product-slider__item-inner">
+                                                <div class="product-slider__item-price">
+                                                    <span>$10 - $50</span>
+                                                </div>
+                                                <div class="product-slider__item-like lnr-heart">
+                                                    <span>46</span>
+                                                </div>
+                                                <div class="product-slider__item-buy lnr-cart">
+                                                    <span>64</span>
+                                                </div>
+                                                <div class="product-slider__item-rate">
+                                                    <div class="rateYo"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product-slider__box">
+                                <div class="product-slider__item">
+                                    <div class="product-slider__item-images"
+                                        style="background-image: url(images/content/item-big.jpg);">
+                                    </div>
+                                    <div class="product-slider__item-content">
+                                        <div class="product-slider__item-title">
+                                            One Page Resume Template
+                                        </div>
+
+                                        <div class="product-slider__item-inner">
+                                            <div class="product-slider__item-avatar"
+                                                style="background-image: url(images/content/user.png);"> </div>
+                                            <a href="#" class="product-slider__item-name">AazzTech</a>
+                                            <a href="#" class="product-slider__item-category">
+                                                <div class="product-slider__item-icon"
+                                                    style="background-image: url(images/content/wp-icon.svg);">
+                                                </div> WordPress
+                                            </a>
+                                        </div>
+
+                                        <p class="product-slider__item-text">
+                                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                            scelerisque the mattis, leo quam aliquet congue placerat mi id nisi interdum
+                                            mollis. Praesent pharetra, justo ut scelerisque the mattis, leo quam aliquet
+                                            congue justo ut scelerisque.
+                                        </p>
+                                        <div class="product-slider__item-tag">
+                                            <span class="product-slider__item-span">website</span>
+                                            <span class="product-slider__item-span">plugin</span>
+                                            <span class="product-slider__item-span">landing page</span>
+                                        </div>
+
+
+                                        <div class="product-slider__item-about">
+                                            <div class="product-slider__item-inner">
+                                                <div class="product-slider__item-price">
+                                                    <span>$10 - $50</span>
+                                                </div>
+                                                <div class="product-slider__item-like lnr-heart">
+                                                    <span>46</span>
+                                                </div>
+                                                <div class="product-slider__item-buy lnr-cart">
+                                                    <span>64</span>
+                                                </div>
+                                                <div class="product-slider__item-rate">
+                                                    <div class="rateYo"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-                <div class="main__subtitle">
-                    MartPlace is the most powerful, & customizable template for Easy Digital Downloads Products
+            </section>
+
+            <section class="product-filter">
+                <div class="container">
+                    <div class="product-filter__inner">
+                        <div class="product-slider__title-inner">
+                            <div class="product-filter__title product-title">
+                                Newest Release Products
+                            </div>
+                            <div class="product-filter__title-btn">
+                                <div class="product-filter__btn-inner">
+                                    <span class="product-filter__btn-span">Filter by:</span>
+                                    <img class="product-filter__btn-icon" src="images/icon-title.png">
+                                    <ul class="product-filter__btn-dropdown">
+                                        <li class="product-filter__btn-list" data-filter=".category-trend">Trending
+                                            items</li>
+                                        <li class="product-filter__btn-list" data-filter=".category-seller">Best seller
+                                        </li>
+                                        <li class="product-filter__btn-list" data-filter=".category-rating">Best rating
+                                        </li>
+                                        <li class="product-filter__btn-list" data-filter=".category-low">Low price</li>
+                                        <li class="product-filter__btn-list" data-filter=".category-high">High price
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-filter__tag">
+                            <div class="product-slider__title-inner">
+                                <span class="product-filter__span" data-filter=".category-plugins">Plugins</span>
+                                <span class="product-filter__span" data-filter=".category-wp">WordPress</span>
+                                <span class="product-filter__span" data-filter=".category-site">Site Template</span>
+                                <span class="product-filter__span" data-filter=".category-psd">PSD Template</span>
+                                <span class="product-filter__span" data-filter=".category-joomla">Joomla</span>
+                                <span class="product-filter__span" data-filter=".category-user">User Interface</span>
+                                <span class="product-filter__span" data-filter=".category-landing">Landing Page</span>
+                                <span class="product-filter__span" data-filter=".category-software">Software</span>
+                            </div>
+                        </div>
+                        <div class="product-filter__product">
+                            <div class="product-filter__product-inner">
+
+                                <div class="product-filter__product-item  mix category-high category-plugins  
+                                category-trend category-seller category-wp category-plugins" data-order="1">
+                                    <div class="product-filter__product-img"
+                                        style="background-image: url(images/content/product-icon.jpg);">
+                                        <div class="product-filter__btn-inner-img">
+                                            <a href="#" class="product-filter__btn-more">More Info</a>
+                                            <a href="#" class="product-filter__btn-demo">Live Demo</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-filter__product-content">
+                                        <div class="product-filter__item-title"> E-commerce Shopping Cart</div>
+                                        <div class="product-slider__item-inner">
+                                            <div class="product-filter__item-avatar"
+                                                style="background-image: url(images/content/user-mini.png);"> </div>
+                                            <a href="#" class="product-filter__item-name">Theme-Valley</a>
+                                            <a href="#" class="product-filter__item-category">
+                                                <div class="product-slider__item-icon"
+                                                    style="background-image: url(images/content/wp-icon.svg);">
+                                                </div> Plugin
+                                            </a>
+                                        </div>
+                                        <p class="product-slider__item-text">
+                                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                            scelerisque
+                                            the mattis, leo quam aliquet congue.
+                                        </p>
+                                        <div class="product-slider__item-about">
+                                            <div class="product-slider__item-inner">
+                                                <div class="product-filter__item-price">
+                                                    <span class="product-filter__item-span">$20</span>
+                                                </div>
+                                                <div class="product-slider__item-like lnr-heart">
+                                                    <span>90</span>
+                                                </div>
+                                                <div class="product-slider__item-buy lnr-cart">
+                                                    <span>246</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-filter__product-item mix category-high category-psd category-plugins "
+                                    data-order="2">
+                                    <div class="product-filter__product-img "
+                                        style="background-image: url(images/content/product-icon.jpg);">
+                                        <div class="product-filter__btn-inner-img">
+                                            <a href="#" class="product-filter__btn-more">More Info</a>
+                                            <a href="#" class="product-filter__btn-demo">Live Demo</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-filter__product-content">
+                                        <div class="product-filter__item-title"> E-commerce Shopping Cart</div>
+                                        <div class="product-slider__item-inner">
+                                            <div class="product-filter__item-avatar"
+                                                style="background-image: url(images/content/user-mini.png);"> </div>
+                                            <a href="#" class="product-filter__item-name">Theme-Valley</a>
+                                            <a href="#" class="product-filter__item-category">
+                                                <div class="product-slider__item-icon product-slider__item-icon-psd"
+                                                    style="background-image: url(images/content/psd.svg);">
+                                                </div> Plugin
+                                            </a>
+                                        </div>
+                                        <p class="product-slider__item-text">
+                                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                            scelerisque
+                                            the mattis, leo quam aliquet congue.
+                                        </p>
+                                        <div class="product-slider__item-about">
+                                            <div class="product-slider__item-inner">
+                                                <div class="product-filter__item-price">
+                                                    <span class="product-filter__item-span">$18</span>
+                                                </div>
+                                                <div class="product-slider__item-like lnr-heart">
+                                                    <span>90</span>
+                                                </div>
+                                                <div class="product-slider__item-buy lnr-cart">
+                                                    <span>246</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-filter__product-item mix category-trend category-rating category-seller category-wp category-plugins"
+                                    data-order="3">
+                                    <div class="product-filter__product-img"
+                                        style="background-image: url(images/content/product-icon.jpg);">
+                                        <div class="product-filter__btn-inner-img">
+                                            <a href="#" class="product-filter__btn-more">More Info</a>
+                                            <a href="#" class="product-filter__btn-demo">Live Demo</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-filter__product-content">
+                                        <div class="product-filter__item-title"> E-commerce Shopping Cart</div>
+                                        <div class="product-slider__item-inner">
+                                            <div class="product-filter__item-avatar"
+                                                style="background-image: url(images/content/user-mini.png);"> </div>
+                                            <a href="#" class="product-filter__item-name">Theme-Valley</a>
+                                            <a href="#" class="product-filter__item-category">
+                                                <div class="product-slider__item-icon product-slider__item-icon-html"
+                                                    style="background-image: url(images/content/html.png);">
+                                                </div> Plugin
+                                            </a>
+                                        </div>
+                                        <p class="product-slider__item-text">
+                                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                            scelerisque
+                                            the mattis, leo quam aliquet congue.
+                                        </p>
+                                        <div class="product-slider__item-about">
+                                            <div class="product-slider__item-inner">
+                                                <div class="product-filter__item-price">
+                                                    <span class="product-filter__item-span">$20</span>
+                                                </div>
+                                                <div class="product-slider__item-like lnr-heart">
+                                                    <span>90</span>
+                                                </div>
+                                                <div class="product-slider__item-rate">
+                                                    <div class="rateYo"></div>
+                                                </div>
+                                                <div class="product-slider__item-buy lnr-cart">
+                                                    <span>68</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-filter__product-item mix category-rating category-high category-plugins"
+                                    data-order="4">
+                                    <div class="product-filter__product-img"
+                                        style="background-image: url(images/content/product-icon.jpg);">
+                                        <div class="product-filter__btn-inner-img">
+                                            <a href="#" class="product-filter__btn-more">More Info</a>
+                                            <a href="#" class="product-filter__btn-demo">Live Demo</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-filter__product-content">
+                                        <div class="product-filter__item-title"> E-commerce Shopping Cart</div>
+                                        <div class="product-slider__item-inner">
+                                            <div class="product-filter__item-avatar"
+                                                style="background-image: url(images/content/user-mini.png);"> </div>
+                                            <a href="#" class="product-filter__item-name">Theme-Valley</a>
+                                            <a href="#" class="product-filter__item-category">
+                                                <div class="product-slider__item-icon"
+                                                    style="background-image: url(images/content/wp-icon.svg);">
+                                                </div> Plugin
+                                            </a>
+                                        </div>
+                                        <p class="product-slider__item-text">
+                                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                            scelerisque
+                                            the mattis, leo quam aliquet congue.
+                                        </p>
+                                        <div class="product-slider__item-about">
+                                            <div class="product-slider__item-inner">
+                                                <div class="product-filter__item-price">
+                                                    <span class="product-filter__item-span">$10 - 50</span>
+                                                </div>
+                                                <div class="product-slider__item-like lnr-heart">
+                                                    <span>90</span>
+                                                </div>
+                                                <div class="product-slider__item-rate">
+                                                    <div class="rateYo"></div>
+                                                </div>
+                                                <div class="product-slider__item-buy lnr-cart">
+                                                    <span>68</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-filter__product-item category-high category-plugins" data-order="5">
+                                    <div class="product-filter__product-img"
+                                        style="background-image: url(images/content/product-icon.jpg);">
+                                        <div class="product-filter__btn-inner-img">
+                                            <a href="#" class="product-filter__btn-more">More Info</a>
+                                            <a href="#" class="product-filter__btn-demo">Live Demo</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-filter__product-content">
+                                        <div class="product-filter__item-title"> E-commerce Shopping Cart</div>
+                                        <div class="product-slider__item-inner">
+                                            <div class="product-filter__item-avatar"
+                                                style="background-image: url(images/content/user-mini.png);"> </div>
+                                            <a href="#" class="product-filter__item-name">Theme-Valley</a>
+                                            <a href="#" class="product-filter__item-category">
+                                                <div class="product-slider__item-icon product-slider__item-icon-psd"
+                                                    style="background-image: url(images/content/psd.svg);">
+                                                </div> Plugin
+                                            </a>
+                                        </div>
+                                        <p class="product-slider__item-text">
+                                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                            scelerisque
+                                            the mattis, leo quam aliquet congue.
+                                        </p>
+                                        <div class="product-slider__item-about">
+                                            <div class="product-slider__item-inner">
+                                                <div class="product-filter__item-price">
+                                                    <span class="product-filter__item-span">$10 - 50</span>
+                                                </div>
+                                                <div class="product-slider__item-like lnr-heart">
+                                                    <span>90</span>
+                                                </div>
+                                                <div class="product-slider__item-buy lnr-cart">
+                                                    <span>50</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="product-filter__product-item mix category-rating category-low category-seller category-plugins"
+                                    data-order="6">
+                                    <div class="product-filter__product-img"
+                                        style="background-image: url(images/content/product-icon.jpg);">
+                                        <div class="product-filter__btn-inner-img">
+                                            <a href="#" class="product-filter__btn-more">More Info</a>
+                                            <a href="#" class="product-filter__btn-demo">Live Demo</a>
+                                        </div>
+                                    </div>
+                                    <div class="product-filter__product-content">
+                                        <div class="product-filter__item-title"> E-commerce Shopping Cart</div>
+                                        <div class="product-slider__item-inner">
+                                            <div class="product-filter__item-avatar"
+                                                style="background-image: url(images/content/user-mini.png);"> </div>
+                                            <a href="#" class="product-filter__item-name">Theme-Valley</a>
+                                            <a href="#" class="product-filter__item-category">
+                                                <div class="product-slider__item-icon product-slider__item-icon-html"
+                                                    style="background-image: url(images/content/html.png);">
+                                                </div> Plugin
+                                            </a>
+                                        </div>
+                                        <p class="product-slider__item-text">
+                                            Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                            scelerisque
+                                            the mattis, leo quam aliquet congue.
+                                        </p>
+                                        <div class="product-slider__item-about">
+                                            <div class="product-slider__item-inner">
+                                                <div class="product-filter__item-price">
+                                                    <span class="product-filter__item-span">$10</span>
+                                                </div>
+                                                <div class="product-slider__item-like lnr-heart">
+                                                    <span>56</span>
+                                                </div>
+                                                <div class="product-slider__item-rate">
+                                                    <div class="rateYo"></div>
+                                                </div>
+                                                <div class="product-slider__item-buy lnr-cart">
+                                                    <span>68</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="product-filter__link-more-inner">
+                            <a href="#" class="product-filter__link-more">All New Products</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="main__btn">
-                    <a href="#" class="main__link main__link-active">
-                        View All Products
-                    </a>
-                    <a href="#" class="main__link ">
-                        Popular Products
-                    </a>
-                </div>
-            </div>
-        </div>
 
             </section>
-            <section class="search">
-                <div class="search__inner-box">
-            <div class="search-box">
-                <form>
-                    <input type="text" placeholder="Search your products...">
-                    <button type="submit"> Search Now </button>
-                </form>
-                    
-                        <ul class="filter__list">
-                            <li> All Categories
-                                <img src="images/icon/down-arrow.png" alt="">
-                            </li>
-                         </ul>
-                
-                </div>
-            </div>
-        </section>
 
-    <section class="items-offer">
-        <div class="container">
-            <div class="items__inner">
-                <div class="item">
-                    <div class="item-research">
-                    <img src="images/item-icon/icon-1.png" alt="">
-                    <div class="item-title">Best UX Research</div>
-                    <div class="item-text ">Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
-                        scelerisque
-                        the mattis, leo quam aliquet diam
-                        congue is laoreet elit metus.
+            <section class="recently-slider">
+                <div class="container">
+                    <div class="recently-slider__inner">
+                        <div class="product-slider__title-inner recently-slider__title-inner ">
+                            <div class="product-slider__title product-title">
+                                Your Followers Feed
+                            </div>
+                            <div class="product-slider__title-btn">
+                                <img src="images/title-decor-blue.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="recently-slider__items">
+                            <div class="product-filter__product-item">
+                                <div class="product-filter__product-img"
+                                    style="background-image: url(images/content/product-icon.jpg);">
+                                </div>
+                                <div class="product-filter__product-content">
+                                    <div class="product-filter__item-title"> E-commerce Shopping Cart</div>
+                                    <div class="product-slider__item-inner">
+                                        <div class="product-filter__item-avatar"
+                                            style="background-image: url(images/content/user-mini.png);"> </div>
+                                        <a href="#" class="product-filter__item-name">Theme-Valley</a>
+                                        <a href="#" class="product-filter__item-category">
+                                            <div class="product-slider__item-icon product-slider__item-icon-html"
+                                                style="background-image: url(images/content/html.png);">
+                                            </div> Plugin
+                                        </a>
+                                    </div>
+                                    <p class="product-slider__item-text">
+                                        Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                        scelerisque
+                                        the mattis, leo quam aliquet congue.
+                                    </p>
+                                    <div class="product-slider__item-about">
+                                        <div class="product-slider__item-inner">
+                                            <div class="product-filter__item-price">
+                                                <span class="product-filter__item-span">$20</span>
+                                            </div>
+                                            <div class="product-slider__item-like lnr-heart">
+                                                <span>90</span>
+                                            </div>
+                                            <div class="product-slider__item-rate">
+                                                <div class="rateYo"></div>
+                                            </div>
+                                            <div class="product-slider__item-buy lnr-cart">
+                                                <span>68</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product-filter__product-item">
+                                <div class="product-filter__product-img"
+                                    style="background-image: url(images/content/product-icon.jpg);">
+                                </div>
+                                <div class="product-filter__product-content">
+                                    <div class="product-filter__item-title"> E-commerce Shopping Cart</div>
+                                    <div class="product-slider__item-inner">
+                                        <div class="product-filter__item-avatar"
+                                            style="background-image: url(images/content/user-mini.png);"> </div>
+                                        <a href="#" class="product-filter__item-name">Theme-Valley</a>
+                                        <a href="#" class="product-filter__item-category">
+                                            <div class="product-slider__item-icon product-slider__item-icon-html"
+                                                style="background-image: url(images/content/html.png);">
+                                            </div> Plugin
+                                        </a>
+                                    </div>
+                                    <p class="product-slider__item-text">
+                                        Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                        scelerisque
+                                        the mattis, leo quam aliquet congue.
+                                    </p>
+                                    <div class="product-slider__item-about">
+                                        <div class="product-slider__item-inner">
+                                            <div class="product-filter__item-price">
+                                                <span class="product-filter__item-span">$20</span>
+                                            </div>
+                                            <div class="product-slider__item-like lnr-heart">
+                                                <span>90</span>
+                                            </div>
+                                            <div class="product-slider__item-rate">
+                                                <div class="rateYo"></div>
+                                            </div>
+                                            <div class="product-slider__item-buy lnr-cart">
+                                                <span>68</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product-filter__product-item">
+                                <div class="product-filter__product-img"
+                                    style="background-image: url(images/content/product-icon.jpg);">
+
+                                </div>
+                                <div class="product-filter__product-content">
+                                    <div class="product-filter__item-title"> E-commerce Shopping Cart</div>
+                                    <div class="product-slider__item-inner">
+                                        <div class="product-filter__item-avatar"
+                                            style="background-image: url(images/content/user-mini.png);"> </div>
+                                        <a href="#" class="product-filter__item-name">Theme-Valley</a>
+                                        <a href="#" class="product-filter__item-category">
+                                            <div class="product-slider__item-icon product-slider__item-icon-html"
+                                                style="background-image: url(images/content/html.png);">
+                                            </div> Plugin
+                                        </a>
+                                    </div>
+                                    <p class="product-slider__item-text">
+                                        Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                        scelerisque
+                                        the mattis, leo quam aliquet congue.
+                                    </p>
+                                    <div class="product-slider__item-about">
+                                        <div class="product-slider__item-inner">
+                                            <div class="product-filter__item-price">
+                                                <span class="product-filter__item-span">$20</span>
+                                            </div>
+                                            <div class="product-slider__item-like lnr-heart">
+                                                <span>90</span>
+                                            </div>
+                                            <div class="product-slider__item-rate">
+                                                <div class="rateYo"></div>
+                                            </div>
+                                            <div class="product-slider__item-buy lnr-cart">
+                                                <span>68</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product-filter__product-item">
+                                <div class="product-filter__product-img"
+                                    style="background-image: url(images/content/product-icon.jpg);">
+                                </div>
+                                <div class="product-filter__product-content">
+                                    <div class="product-filter__item-title"> E-commerce Shopping Cart</div>
+                                    <div class="product-slider__item-inner">
+                                        <div class="product-filter__item-avatar"
+                                            style="background-image: url(images/content/user-mini.png);"> </div>
+                                        <a href="#" class="product-filter__item-name">Theme-Valley</a>
+                                        <a href="#" class="product-filter__item-category">
+                                            <div class="product-slider__item-icon product-slider__item-icon-html"
+                                                style="background-image: url(images/content/html.png);">
+                                            </div> Plugin
+                                        </a>
+                                    </div>
+                                    <p class="product-slider__item-text">
+                                        Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                        scelerisque
+                                        the mattis, leo quam aliquet congue.
+                                    </p>
+                                    <div class="product-slider__item-about">
+                                        <div class="product-slider__item-inner">
+                                            <div class="product-filter__item-price">
+                                                <span class="product-filter__item-span">$20</span>
+                                            </div>
+                                            <div class="product-slider__item-like lnr-heart">
+                                                <span>90</span>
+                                            </div>
+                                            <div class="product-slider__item-rate">
+                                                <div class="rateYo"></div>
+                                            </div>
+                                            <div class="product-slider__item-buy lnr-cart">
+                                                <span>68</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product-filter__product-item">
+                                <div class="product-filter__product-img"
+                                    style="background-image: url(images/content/product-icon.jpg);">
+                                </div>
+                                <div class="product-filter__product-content">
+                                    <div class="product-filter__item-title"> E-commerce Shopping Cart</div>
+                                    <div class="product-slider__item-inner">
+                                        <div class="product-filter__item-avatar"
+                                            style="background-image: url(images/content/user-mini.png);"> </div>
+                                        <a href="#" class="product-filter__item-name">Theme-Valley</a>
+                                        <a href="#" class="product-filter__item-category">
+                                            <div class="product-slider__item-icon product-slider__item-icon-html"
+                                                style="background-image: url(images/content/html.png);">
+                                            </div> Plugin
+                                        </a>
+                                    </div>
+                                    <p class="product-slider__item-text">
+                                        Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                        scelerisque
+                                        the mattis, leo quam aliquet congue.
+                                    </p>
+                                    <div class="product-slider__item-about">
+                                        <div class="product-slider__item-inner">
+                                            <div class="product-filter__item-price">
+                                                <span class="product-filter__item-span">$20</span>
+                                            </div>
+                                            <div class="product-slider__item-like lnr-heart">
+                                                <span>90</span>
+                                            </div>
+                                            <div class="product-slider__item-rate">
+                                                <div class="rateYo"></div>
+                                            </div>
+                                            <div class="product-slider__item-buy lnr-cart">
+                                                <span>68</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="product-filter__product-item">
+                                <div class="product-filter__product-img"
+                                    style="background-image: url(images/content/product-icon.jpg);">
+
+                                </div>
+                                <div class="product-filter__product-content">
+                                    <div class="product-filter__item-title"> E-commerce Shopping Cart</div>
+                                    <div class="product-slider__item-inner">
+                                        <div class="product-filter__item-avatar"
+                                            style="background-image: url(images/content/user-mini.png);"> </div>
+                                        <a href="#" class="product-filter__item-name">Theme-Valley</a>
+                                        <a href="#" class="product-filter__item-category">
+                                            <div class="product-slider__item-icon product-slider__item-icon-html"
+                                                style="background-image: url(images/content/html.png);">
+                                            </div> Plugin
+                                        </a>
+                                    </div>
+                                    <p class="product-slider__item-text">
+                                        Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut
+                                        scelerisque
+                                        the mattis, leo quam aliquet congue.
+                                    </p>
+                                    <div class="product-slider__item-about">
+                                        <div class="product-slider__item-inner">
+                                            <div class="product-filter__item-price">
+                                                <span class="product-filter__item-span">$20</span>
+                                            </div>
+                                            <div class="product-slider__item-like lnr-heart">
+                                                <span>90</span>
+                                            </div>
+                                            <div class="product-slider__item-rate">
+                                                <div class="rateYo"></div>
+                                            </div>
+                                            <div class="product-slider__item-buy lnr-cart">
+                                                <span>68</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
-                <div class="item item__active">
-                    <div class="item-responsive">
-                    <img src="images/item-icon/icon-2.png" alt="">
-                    <div class="item-title">Fully Responsive</div>
-                    <div class="item-text ">
-                        Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
-                       the mattis, leo quam aliquet diam
-                       congue is laoreet elit metus.
+            </section>
+
+            <section class="expiriens-company">
+                <div class="container">
+                    <div class="expiriens-company__inner">
+                        <div class="expiriens-company__items">
+                            <div class="expiriens-company__item">
+                                <div class="expiriens-company__item-count"> <span class="lnr-briefcase">38,436</span>
+                                </div>
+                                <div class="expiriens-company__item-count-desc"><span>items for sale</span> </div>
+                            </div>
+                            <div class="expiriens-company__item">
+                                <div class="expiriens-company__item-number"><span
+                                        class="lnr-cloud-download">3,736</span></div>
+                                <div class="expiriens-company__item-count-desc"> <span>total sale</span></div>
+                            </div>
+                            <div class="expiriens-company__item">
+                                <div class="expiriens-company__item-number"> <span class="lnr-smile">2,736</span></div>
+                                <div class="expiriens-company__item-count-desc"><span>happy customers </span></div>
+                            </div>
+                            <div class="expiriens-company__item">
+                                <div class="expiriens-company__item-number"> <span class="lnr-users">25,736</span></div>
+                                <div class="expiriens-company__item-count-desc"> <span>members</span></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
-                <div class="item">
-                    <div class="item-buy">
-                    <img src="images/item-icon/icon-3.png" alt="">
-                    <div class="item-title">Buy & Sell Easily</div>
-                    <div class="item-text"> 
-                        Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque 
-                        the mattis, leo quam aliquet diam
-                        congue is laoreet elit metus.
-                    </div>
-                </div>
-                </div>
-            </div>
+            </section>
         </div>
-    </section>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-    </script>
+        <footer class="footer"></footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
-    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
