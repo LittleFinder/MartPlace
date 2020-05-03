@@ -58,15 +58,26 @@
      .lnr-store:before {
           content: "\e82d";
      }
+     
+     .lnr-smile:before {
+          content: "\e854";
+     }
      .lnr-cart:before {
           content: "\e82e";
      }
+
+     .lnr-magic-wand:before {
+          content: "\e803";
+     }
+
+     .lnr-license:before {
+          content: "\e822";
+     }
+
      .lnr-tag:before {
           content: "\e82f";
      }
-     .lnr-phone-handset:before {
-          content: "\e830";
-     }
+     
      .lnr-phone:before {
           content: "\e831";
      }
@@ -82,7 +93,18 @@
      .lnr-location:before {
           content: "\e835";
      }
-   
+
+     .lnr-lock:before {
+          content: "\e80f";
+     }
+     
+     .lnr-chart-bars:before {
+          content: "\e843";
+     }
+
+     .lnr-leaf:before {
+          content: "\e849";
+     }
     
      .lnr-briefcase:before {
           content: "\e84c";
