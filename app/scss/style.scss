@@ -580,7 +580,7 @@
     }
 
     &__product-item {
-        margin-right: 15px;
+        margin-right: 30px;
         margin-bottom: 20px;
         border-radius: 4px;
         box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
@@ -760,7 +760,8 @@
     
 }
 //start experience-company
-.company-expiriens{
+
+.company-expiriens {
     background-color: #212225;
     &__items {
         display: block;
@@ -951,6 +952,91 @@
 }
 
 //end company-benefits
+//start registation
+
+.registation {
+
+  
+
+    &__items {
+        display: flex;
+    }
+
+    &__items-col {
+        display: flex;
+        flex: 0 1 50%;
+    }
+
+    &__item {
+        flex-direction: column;
+        max-width: 960px;
+        text-align: center;
+        position: relative;
+    }
+
+    &__item-text {
+    
+       color: #fff;
+       margin-bottom: 35px;
+       line-height: 30px;
+       @include f300;   
+       padding: 0 185px;
+    }
+
+
+    &__item-right {
+        background-image: url(../images/line-bg.png);
+        background-repeat: no-repeat;
+        margin-left: -5px;
+    }
+
+    &__item-left {
+        background-image: url(../images/line-bg-blue.png);
+        background-repeat: no-repeat;
+        min-height: 560px;
+        margin-right: 0px;
+    }  
+
+    &__item-img {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+   &__item-title {
+       margin-top: 40px;
+       margin-bottom: 25px;
+       font-size: 36px;
+       @include f300;
+       color: #fff;
+   }
+
+    &__item-img-l {
+        width: 121px;
+        height: 101px;
+        
+    }
+
+    &__item-img-r {
+        width: 100px;
+        height: 100px;
+    }
+
+    &__item-link {
+        display: inline-block;
+        color: $button;
+        background-color: #fff;
+        padding: 15px 24px;
+        border-radius: 25px;
+        margin-bottom: 100px;
+        margin-top: 56px;
+        @include f300;
+    }
+
+   
+}  
+
+
+//end registation
 
 .lnr-alarm {
     &::before{
@@ -1040,3 +1126,8 @@
     }
 }
 
+
+
+
+
+@import 'media';
